@@ -1,0 +1,15 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script>
+        var idade_minima = 18 ;
+        var idade_pessoa = prompt("Qual a sua idade?") ;
+
+        var mensagem = `Acesso não autorizado! Você tem ${idade_pessoa} e a idade mínima é ${idade_minima} anos.` ;
+
+        if (idade_minima <= idade_pessoa) {
+            mensagem = "Acesso autorizado! Ótimo filme." ;
+        }
+
+        alert(mensagem) ;
+    </script>
+</html>
